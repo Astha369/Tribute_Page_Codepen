@@ -1,0 +1,73 @@
+*{
+  background-color: #f7f7f7;
+  font-family: "Lucida Typewriter", monospace;
+}
+p {
+  line-height: 2 ;
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  text-indent: 60px ;
+}
+p + p {
+  text-indent: 60px;
+}
+#image {
+  display: block;
+  border-radius: 16px;
+  width: auto;
+  filter: blur(-2px);
+  max-width: 100%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: arial;
+}
+#title {
+  font-family: "Lucida Typewriter", monospace;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 3;
+}
+#quote {
+  font-family: "Lucida Typewriter", monospace;
+  text-align: center;
+  font-weight: bold;
+}
+#img-caption {
+  text-align: center;
+  font-stretch: expanded;
+  line-height: 3;
+  font-family: arial;
+  font-size: 80%;
+}
+#tribute-info {
+  text-align: left;
+  font-size: 100%;
+  font-family: arial;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+#bottom-part {
+  text-align: center;
+  font-family: "Lucida Sans Typewriter", monospace;
+}
+#accomplishments {
+  text-align: center;
+}
+#awards
+{text-align: center;}
+#footer {
+  font-family: "Lucida Typewriter", monospace;
+}
